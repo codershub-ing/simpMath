@@ -5,4 +5,63 @@
 
 body {
     background-color: black;
+    color: white;
+}
+
+.Sampl0 {
+    width: max-content;
+    position: absolute;
+    left: 35%;
+    margin: 10px;
+}
+
+h1 {
+    background-color: rgb(32, 44, 40);
+    padding: 10px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.inputDiv {
+    display: flex;
+    background-color: red;
+    justify-content: space-evenly;
+}
+
+.input {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(26, 25, 25);
+    border-radius: 12px;
+    margin: 10px;
+    padding-left: 5px;
+}
+
+.buttonDiv {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(108, 88, 127);
+}
+
+.btn:hover {
+    background-color: blueviolet;
+}
+
+.resultDiv {
+    background-color: rgb(32, 44, 40);
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
