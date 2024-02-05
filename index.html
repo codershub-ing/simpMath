@@ -5,31 +5,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SimpleMathSampe</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="SimpleMathSampe0.css" />
+    <link rel="stylesheet" href="SimpleMathSampe1.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="shortcut icon" href="ico.png" type="image/x-icon" />
 </head>
 
 <body>
-    <div class="Sampl0">
-        <h1>SimpleMathSampe0</h1>
-        <div class="inputDiv">
-            <input type="number" name="Enter no" id="n1" class="input" placeholder="-Enter number1-" />
-            <input type="number" name="Enter no" id="n2" class="input" placeholder="-Enter number2-" />
+    <!--Nav-->
+    <header>
+        <div class="nav">
+            <div class="leftNav">
+                <img src="ico.png" class="ico" alt="">
+                <a>Home</a>
+                <a>Projects</a>
+                <a>About</a>
+            </div>
+            <div>
+                <h1>Here are some math formulae projects</h1>
+            </div>
+            <div class="RightNav">
+                <input type="text" placeholder="Search" class="navSearch">
+            </div>
         </div>
-        <div class="buttonDiv">
-            <button id="add" class="btn">Add</button>
-            <button id="sub" class="btn">Substract</button>
-            <button id="mult" class="btn">Multiply</button>
-            <button id="div" class="btn">Divide</button>
+    </header>
+    <main>
+        <!-- //this is for SimpleMathSampe0-->
+        <div class="Sampl0">
+            <h1>SimpleMathSampe0</h1>
+            <div class="inputDiv">
+                <input type="number" name="Enter no" id="n1" class="input" placeholder="-Enter number1-" />
+                <input type="number" name="Enter no" id="n2" class="input" placeholder="-Enter number2-" />
+            </div>
+            <div class="buttonDiv">
+                <button id="add" class="btn">Add</button>
+                <button id="sub" class="btn">Substract</button>
+                <button id="mult" class="btn">Multiply</button>
+                <button id="div" class="btn">Divide</button>
+            </div>
+            <div class="resultDiv">
+                <p class="process">
+                    ---------------------------------------------------------------
+                </p>
+                <p class="result" id="result">Result</p>
+            </div>
         </div>
-        <div class="resultDiv">
-            <p class="process">-------------</p>
-            <p class="result" id="result">Result</p>
-        </div>
-    </div>
+        <!-- //this is for SimpleMathSampe1-->
+        <div class="sampl1"></div>
+    </main>
+    <!--Footer-->
+    <footer></footer>
 
-
-    <script src="script.js"></script>
+    <script src="SimpleMathSampe0.js"></script>
+    <script src="SimpleMathSampe1.js"></script>
 </body>
 
 </html>

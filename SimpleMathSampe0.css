@@ -8,11 +8,14 @@ body {
     color: white;
 }
 
+
+/*Here is css for "SIMPLE MATH SAMPLE 0 */
+
 .Sampl0 {
     width: max-content;
-    position: absolute;
-    left: 35%;
     margin: 10px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 40px rgb(222, 208, 208);
 }
 
 h1 {
@@ -20,6 +23,7 @@ h1 {
     padding: 10px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    text-align: center;
 }
 
 .inputDiv {

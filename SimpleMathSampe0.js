@@ -1,12 +1,15 @@
 //Here in var buttons all needed buttons with id is listed
 //With query selector All
 var buttons = document.querySelectorAll("#add, #sub, #mult, #div");
+
+
+
 //Now here var button is used "for each is to select all from variable"
 //and function button is played
 buttons.forEach(function(button) {
     button.addEventListener("click", function() {
         //here parse int is used beacouse want only integer values from input
-        //or to convert ininteger form
+        //or to convert in integer form from var or other form
         var n1 = parseInt(document.getElementById("n1").value);
         var n2 = parseInt(document.getElementById("n2").value);
         if (this.id == "add") {

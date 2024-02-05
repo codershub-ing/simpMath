@@ -1,0 +1,39 @@
+/*Her Code for Header and Footer */
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.nav {
+    display: flex;
+    background-color: rgb(32, 29, 29);
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.leftNav {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.ico {
+    width: 50px;
+    border: solid 2px black;
+    border-radius: 60px;
+}
+
+.leftNav a {
+    padding: 5px;
+}
+
+.navSearch {
+    height: 30px;
+    width: 200px;
+    border: none;
+    padding-left: 20px;
+    border-radius: 12px;
+}
