@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SimpleMathSample</title>
     <link rel="stylesheet" href="SimpleMathSampe0.css" />
-    <link rel="stylesheet" href="SimpleMathSampe1.css" />
     <link rel="stylesheet" href="FindSumOfAP.css" />
     <link rel="stylesheet" href="utilitis.css">
     <link rel="stylesheet" href="nav.css" />
@@ -33,7 +32,7 @@
     </header>
     <main>
         <div class="div1">
-            <!-- //this is for SimpleMathSampl0-->
+            <!-- //this is for SimpleMathSampl0 (-+*/)-->
             <div class="Sampl0">
                 <h1>SimpleMathSampe0</h1>
                 <div class="inputDiv">
@@ -53,20 +52,38 @@
                     <p class="result" id="result">Result</p>
                 </div>
             </div>
-            <!-- //this is for SimpleMathSampl1-->
+            <!-- //this is for SimpleMathSampl1 AP-->
             <div class="Sampl1">
                 <div class="headingSampl1">
                     <h1>Find sum of n turms of A.P.</h1>
                 </div>
-                <div class="inputsSampl1">
-                    <input type="number" class="input" placeholder="-Enter First Term-" id="first-term">
-                    <input type="number" class="input" placeholder="-Common Difference-" id="common-difference">
-                    <input type="number" class="input" placeholder="-Last Term-" id="last-term">
-                    <input type="number" class="input" placeholder="-Total Terms-" id="total-terms">
+                <div class="inputsSampl1 display-flex">
+
+                    <div>
+                        <p>First Term</p>
+                        <input type="number" class="input" placeholder="-Enter First Term-" id="first-term">
+                    </div>
+                    <div>
+                        <p>Common Difference</p>
+                        <input type="number" class="input" placeholder="-Common Difference-" id="common-difference">
+                    </div>
+
+
+                    <div>
+                        <p>Total Terms</p>
+                        <input type="number" class="input" placeholder="-Total Terms-" id="total-terms">
+                    </div>
+
+
+
                 </div>
                 <div class="resultSampl1">
                     <button id="calculateAP" class="btn">Calculate</button>
-                    <p class="resultSample1">Result</p>
+                    <p id="resultSample1">Result</p>
+                </div>
+                <div>
+                    <p>Here is the AP </p>
+                    <p id="AP">AP</p>
                 </div>
             </div>
         </div>
@@ -76,7 +93,7 @@
     <footer></footer>
 
     <script src="SimpleMathSampe0.js"></script>
-    <script src="SimpleMathSampe1.js"></script>
+    <script src="FindSumOfAP.js"></script>
 </body>
 
 </html>

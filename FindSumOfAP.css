@@ -1,6 +1,23 @@
 .Sampl1 {
     width: max-content;
     margin: 10px;
+
     border-radius: 12px;
-    box-shadow: 10px 10px 40px rgb(222, 208, 208);
+    box-shadow: 5px 5px 10px rgb(222, 208, 208);
 }
+
+.inputsSampl1 {
+    background: #463c3c;
+    padding: 10px;
+}
+
+.resultSampl1 {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#AP{padding: 10px;
+    word-wrap: break-word;
+width: 500px;
+height: 100px;
+overflow-y: scroll;}
