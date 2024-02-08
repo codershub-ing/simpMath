@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SimpleMathSampe</title>
+    <title>SimpleMathSample</title>
     <link rel="stylesheet" href="SimpleMathSampe0.css" />
     <link rel="stylesheet" href="SimpleMathSampe1.css" />
+    <link rel="stylesheet" href="FindSumOfAP.css" />
+    <link rel="stylesheet" href="utilitis.css">
     <link rel="stylesheet" href="nav.css" />
     <link rel="shortcut icon" href="ico.png" type="image/x-icon" />
 </head>
@@ -22,7 +24,7 @@
                 <a>About</a>
             </div>
             <div>
-                <h1>Here are some math formulae projects</h1>
+                <h2>Here are some math formulae projects</h2>
             </div>
             <div class="RightNav">
                 <input type="text" placeholder="Search" class="navSearch">
@@ -30,28 +32,45 @@
         </div>
     </header>
     <main>
-        <!-- //this is for SimpleMathSampe0-->
-        <div class="Sampl0">
-            <h1>SimpleMathSampe0</h1>
-            <div class="inputDiv">
-                <input type="number" name="Enter no" id="n1" class="input" placeholder="-Enter number1-" />
-                <input type="number" name="Enter no" id="n2" class="input" placeholder="-Enter number2-" />
+        <div class="div1">
+            <!-- //this is for SimpleMathSampl0-->
+            <div class="Sampl0">
+                <h1>SimpleMathSampe0</h1>
+                <div class="inputDiv">
+                    <input type="number" name="Enter no" id="n1" class="input" placeholder="-Enter number1-" />
+                    <input type="number" name="Enter no" id="n2" class="input" placeholder="-Enter number2-" />
+                </div>
+                <div class="buttonDiv">
+                    <button id="add" class="btn">Add</button>
+                    <button id="sub" class="btn">Substract</button>
+                    <button id="mult" class="btn">Multiply</button>
+                    <button id="div" class="btn">Divide</button>
+                </div>
+                <div class="resultDiv">
+                    <p class="process">
+                        ---------------------------------------------------------------
+                    </p>
+                    <p class="result" id="result">Result</p>
+                </div>
             </div>
-            <div class="buttonDiv">
-                <button id="add" class="btn">Add</button>
-                <button id="sub" class="btn">Substract</button>
-                <button id="mult" class="btn">Multiply</button>
-                <button id="div" class="btn">Divide</button>
-            </div>
-            <div class="resultDiv">
-                <p class="process">
-                    ---------------------------------------------------------------
-                </p>
-                <p class="result" id="result">Result</p>
+            <!-- //this is for SimpleMathSampl1-->
+            <div class="Sampl1">
+                <div class="headingSampl1">
+                    <h1>Find sum of n turms of A.P.</h1>
+                </div>
+                <div class="inputsSampl1">
+                    <input type="number" class="input" placeholder="-Enter First Term-" id="first-term">
+                    <input type="number" class="input" placeholder="-Common Difference-" id="common-difference">
+                    <input type="number" class="input" placeholder="-Last Term-" id="last-term">
+                    <input type="number" class="input" placeholder="-Total Terms-" id="total-terms">
+                </div>
+                <div class="resultSampl1">
+                    <button id="calculateAP" class="btn">Calculate</button>
+                    <p class="resultSample1">Result</p>
+                </div>
             </div>
         </div>
-        <!-- //this is for SimpleMathSampe1-->
-        <div class="sampl1"></div>
+
     </main>
     <!--Footer-->
     <footer></footer>
