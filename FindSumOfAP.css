@@ -1,14 +1,18 @@
 .Sampl1 {
     width: max-content;
     margin: 10px;
-
     border-radius: 12px;
-    box-shadow: 5px 5px 10px rgb(222, 208, 208);
+    box-shadow: 10px 10px 50px rgb(0, 0, 0);
 }
 
 .inputsSampl1 {
     background: #463c3c;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
 }
 
 .resultSampl1 {
@@ -16,8 +20,13 @@
     display: flex;
     justify-content: space-between;
 }
-#AP{padding: 10px;
+
+#AP {
+    padding: 10px;
     word-wrap: break-word;
-width: 500px;
-height: 100px;
-overflow-y: scroll;}
+    border-radius: 12px;
+    width: 500px;
+    height: 100px;
+    overflow-y: auto;
+    background: #101010;
+}

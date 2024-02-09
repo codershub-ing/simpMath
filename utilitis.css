@@ -1,11 +1,16 @@
 .div1 {
     display: flex;
+    justify-content: space-evenly;
+    background: #494646;
+    margin: 10px; 
+    border-radius: 12px;
 }
 
 .input {
     width: 130px;
     height: 30px;
     border: none;
+   
     color: white;
     background-color: rgb(26, 25, 25);
     border-radius: 12px;

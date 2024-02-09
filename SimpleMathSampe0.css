@@ -16,7 +16,7 @@ body {
     margin: 10px;
     height: min-content;
     border-radius: 12px;
-    box-shadow: 5px 5px 10px rgb(222, 208, 208);
+    box-shadow: 10px 10px 50px rgb(0, 0, 0);
 }
 
 h1 {
